@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SwiftLogix Logistics</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { line-height: 1.6; background-color: #f4f4f4; }
+    header, footer { background: #0a3d62; color: white; text-align: center; padding: 1rem 0; }
+    nav ul { list-style: none; display: flex; justify-content: center; gap: 2rem; padding: 1rem 0; }
+    nav a { color: white; text-decoration: none; }
+    .container { width: 90%; max-width: 1200px; margin: auto; padding: 2rem 0; }
+    .hero { background: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df') no-repeat center center/cover; color: white; height: 300px; display: flex; align-items: center; justify-content: center; text-align: center; }
+    .hero h1 { background-color: rgba(0, 0, 0, 0.5); padding: 1rem; border-radius: 10px; }
+    .section { margin: 2rem 0; }
+    .services, .about, .track, .contact { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    form input, form textarea { width: 100%; padding: 0.75rem; margin: 0.5rem 0; border-radius: 5px; border: 1px solid #ccc; }
+    form button { padding: 0.75rem 1.5rem; background: #0a3d62; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SwiftLogix Logistics</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#track">Track</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <section class="hero" id="home">
+    <h1>Fast. Reliable. Global Logistics Solutions.</h1>
+  </section>  <div class="container">
+    <section id="about" class="about section">
+      <h2>About Us</h2>
+      <p>SwiftLogix is a modern logistics company providing end-to-end shipping, freight, and warehousing solutions across the globe. We move your business forward with speed and precision.</p>
+    </section><section id="services" class="services section">
+  <h2>Our Services</h2>
+  <ul>
+    <li><strong>Freight Shipping</strong> – Air, Sea, and Land transportation services.</li>
+    <li><strong>Warehousing</strong> – Safe and efficient storage solutions.</li>
+    <li><strong>Real-Time Tracking</strong> – Monitor your shipment anywhere, anytime.</li>
+  </ul>
+</section>
+
+<section id="track" class="track section">
+  <h2>Track Your Shipment</h2>
+  <form>
+    <label for="tracking">Enter Tracking Number:</label>
+    <input type="text" id="tracking" placeholder="e.g. SLX123456789" />
+    <button type="submit">Track</button>
+  </form>
+</section>
+
+<section id="contact" class="contact section">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  </div>  <footer>
+    <p>&copy; 2025 SwiftLogix Logistics. All rights reserved.</p>
+  </footer>
+</body>
+</html> 
